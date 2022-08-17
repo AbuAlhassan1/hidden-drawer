@@ -4,10 +4,10 @@ class HiddenDrawer extends StatefulWidget {
   const HiddenDrawer({Key? key}) : super(key: key);
 
   @override
-  State<TestScreen> createState() => _TestScreenState();
+  State<HiddenDrawer> createState() => _HiddenDrawerState();
 }
 
-class _TestScreenState extends State<TestScreen> with TickerProviderStateMixin {
+class _HiddenDrawerState extends State<HiddenDrawer> with TickerProviderStateMixin {
   // Page View Stuff -- Start --
   PageController pageController = PageController(
     initialPage: 0,
